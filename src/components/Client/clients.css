@@ -1,0 +1,270 @@
+.clients-container {
+  background-color: rgb(23, 23, 26) !important;
+  background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);  
+}
+
+.payments-container {
+  padding: 0;
+  margin: 20px 40px 0px;
+  border: 2px solid #222531;
+  border-radius: 5px;
+  color: #fff
+}
+
+.payments-month {
+  margin-top: 0;
+  background-color: #17171a;
+  padding: 10px;
+  border-bottom: 1px solid rgb(34, 37, 49);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.table-client-btn {
+  height: 15px;
+  background-color: transparent;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-client-btn {
+  width: 16px;
+  background-image: url('../../images/edit-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.delete-client-btn {
+  width: 16px;
+  background-image: url('../../images/delete-icon-cube.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.date-input {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #fff;
+  border: 1px solid #222531;
+  color: #222531;
+  border-radius: 3px;
+  margin-left: 10px;
+  text-align: center;
+  width: 75px;
+  cursor: pointer;
+}
+
+.tables-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+.table-clients {
+  border-collapse: collapse;
+  border: 1px solid rgb(34, 37, 49);
+  width: 900px;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid rgb(34, 37, 49);
+  text-align: center;
+}
+
+th {
+  padding: 8px;
+}
+
+td {
+  padding: 5px;
+}
+
+.clients-table-tr {
+  background-color: #17171a;
+  padding: 5px;
+  margin: 0;
+}
+
+.td-name {
+  text-align: left !important;
+  padding-left: 30px !important;
+}
+
+.pay-status {
+  width: 50px;
+  height: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(34, 37, 49);
+  margin: 0 auto
+}
+
+.status-green {
+  background-color: #03f73c;
+}
+
+.status-orange {
+  background-color: #3860fb;
+}
+
+.status-red {
+  background-color: #f72c40;
+}
+
+.table-admins-container {
+  margin: 0 auto;
+}
+
+.total-resume {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.table-admins {
+  border-collapse: collapse;
+  border: 1px solid rgb(34, 37, 49);
+  width: 500px;
+  margin: 0 auto;  
+}
+
+.admins-table-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+.clients-msg {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.client-detail-container {
+  padding: 0;
+  margin: 20px 40px 0;
+  border: 2px solid #222531;
+  border-radius: 5px;
+  color: #fff  
+}
+
+.titles-container-detail {
+  margin-top: 0;
+  background-color: #17171a;
+  padding: 10px 400px;
+  border-bottom: 1px solid rgb(34, 37, 49);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.titles-container-detail-h4 {
+  margin: 0
+}
+
+.payments-history {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.table-client-detail-container {
+  margin: 0 auto
+}
+
+.client-detail-info-container {
+  margin: 0 auto
+}
+
+.client-detail-info-container > p > span {
+  font-weight: bold;
+}
+
+.table-client-detail {
+  border-collapse: collapse;
+  border: 1px solid rgb(34, 37, 49);
+  width: 800px;
+  margin: 0 auto;  
+}
+
+.margin-bottom-box {
+  height: 40px;
+}
+
+@media screen and (max-width: 1024px){
+  .clients-container {
+    padding-top: 70px
+  }
+
+  .payments-container {
+    width: 370px;
+    margin: 5px auto;
+
+  }
+
+  .payments-month {
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .tables-container {
+    flex-direction: column;
+  }
+
+  .table-clients {
+    width: 340px;
+    font-size: 14px;
+  }
+
+  .table-admins {
+    width: 340px;
+    font-size: 14px;
+  }
+
+  .total-resume {
+    padding-top: 10px;
+  }
+
+  .client-detail-container {
+    width: 370px;
+    margin: 20px auto;
+  }
+
+  .titles-container-detail {
+    width: 370px;
+    padding: 10px 0;
+    justify-content: center;
+  }
+
+  .titles-container-detail-mobile {
+    border-top: 1px solid rgb(34, 37, 49);
+    margin: 10px auto 20px auto;
+  }
+
+  .payments-history {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .table-client-detail {
+    width: 340px;
+    font-size: 14px;
+  }
+
+  .td-name {
+    padding-left: 10px !important;
+  }
+
+  .client-detail-body {
+    padding-top: 70px
+  }
+}

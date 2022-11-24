@@ -1,0 +1,132 @@
+.title-container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  color: #fff
+}
+
+.login-logo-container {
+  width: 140px;
+}
+
+.title-container-login > h4 {
+  font-size: 45px;
+}
+
+.title-container-login > h4 > span {
+  font-family: 'Allura', cursive;
+  font-size: 55px;
+}
+
+.form-container-login {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #222531;
+  color: #fff
+}
+
+.form-title-login {
+  margin: 0;
+  background-color: #17171a;
+  padding: 10px;
+  border-bottom: 1px solid rgb(34, 37, 49);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form-login {
+  padding: 20px;
+  display: grid;
+}
+
+.label-login {
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold
+}
+
+.input-login {
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #495057;
+  color: #495057;
+  border-radius: 3px;
+  width: 200px;
+}
+
+.form-label-login-user {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.form-input-login-user {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.form-label-login-pass {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.form-input-login-pass {
+  grid-column: 2 / 2;
+  grid-row: 2;
+}
+
+.form-btn-container-login {
+  width: 150px;
+  margin: 10px auto 30px auto;
+}
+
+.form-btn-login {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #3860fb;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #3860fb;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.form-btn-login:hover {
+  background-color: #476cf8;
+}
+
+@media screen and (max-width: 1024px) {
+  .login-container-big {
+    background-color: rgb(23, 23, 26) !important;
+    background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);
+  }
+
+  .title-container-login {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+  
+  .title-container-login > h4 {
+    margin: 30px auto;
+  }
+
+  .form-container-login {
+    width: 350px;
+  }
+
+  .label-login {
+    font-size: 16px;
+  }
+
+  .input-login {
+    font-size: 16px;
+    width: 180px;
+  }
+}

@@ -1,0 +1,573 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  color:#fff;
+  font-size: 26px;
+}
+
+.bets-page-container {
+  background-color: rgb(23, 23, 26) !important;
+  background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.principal-button-container {
+  margin: 10px;
+}
+
+.aux-button-container {
+  margin: 10px;
+}
+
+.spinnerContainer {
+  margin-top: 300px;
+}
+
+.principal-button {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #3860fb;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #3860fb;
+  margin: 10px;
+  width: 200px;
+  color: #fff;
+}
+.principal-button:hover {
+  background-color: #476cf8;
+}
+
+.logo-button {
+  width: 90px;
+  height: 70px;
+  background-image: url('../../images/LogoTT.png');
+  background-size: cover;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.aux-button {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #3860fb;
+  margin: 10px;
+  width: 200px;
+  color: #fff
+}
+.aux-button:hover {
+  background-color: #476cf8;
+  color: #fff;
+}
+
+.bet-page-span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.bet-list-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #17171a;
+  padding: 10px;
+  border-bottom: 1px solid rgb(34, 37, 49);
+}
+
+.bet-list-container {
+  margin: 20px 40px 0px;
+  border-radius: 5px;
+  border: 2px solid #222531;
+  padding-bottom: 10px;
+}
+
+.bets-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container {
+  border-radius: 5px;
+  padding: 20px;
+  width: 210px;
+  margin: 15px;
+  background-color: rgb(23, 23, 26) !important;
+  background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 200px);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  color: #fff;
+}
+
+.card-container:hover {
+  box-shadow: 8px 8px 16px 0 rgba(255,255,255, 0.2);
+}
+
+.delete-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  background-image: url('../../images/delete.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-date {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.card-title {
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.card-p {
+  font-size: 14px !important;
+}
+
+.card-p-limit-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.card-separator-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.card-btn {
+  width: 75px;
+  cursor: pointer;
+  background-color: #323546;
+  padding: 5px 10px;
+  border: 1px solid #323546;
+  color: #fff;
+  border-radius: 5px;
+}
+.card-btn:hover {
+  background-color: #476cf8;
+}
+
+.color-win {
+  border: 1px solid #03f73c;
+}
+.color-win:hover {
+  background-color: #03f73c;
+}
+
+.color-loss {
+  border: 1px solid #f72c40;
+}
+.color-loss:hover {
+  background-color: #f72c40;
+}
+
+.color-void {
+  border: 1px solid #2e63f7;
+}
+.color-void:hover {
+  background-color: #2e63f7;
+}
+
+.color-pending {
+  border: 1px solid #ffc107;
+}
+.color-pending:hover {
+  background-color: #ffc107;
+}
+
+.btn-status {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-status:hover {
+  box-shadow: 4px 4px 8px 0 rgba(233, 227, 227, 0.8);
+}
+
+.border-win {
+  border: 2px solid #03f73c;
+}
+
+.border-loss {
+  border: 2px solid #f72c40;  
+}
+
+.border-void {
+  border: 2px solid #2e63f7;  
+}
+
+.border-pending {
+  border: 2px solid #ffc107;  
+}
+
+.card-p-win {
+  color: #03f73c;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.card-p-loss {
+  color: #f72c40;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.card-p-void {
+  color: #2e63f7;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.card-p-pending {
+  color: #ffc107;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.card-admin-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-status-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.previous-page {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url('../../images/back.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.next-page {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url('../../images/next.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.bet-detail-container {
+  padding: 20px;
+  padding-bottom: 0 !important;
+  height: 100%;
+  background-color: rgb(23, 23, 26) !important;
+  background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);
+}
+
+.detail-container {
+  margin: 100px auto 50px auto;
+  text-align: left;
+  color: #fff;
+  width: 360px;
+}
+
+.detail-status-pending {
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.detail-status-win {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.detail-status-loss {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.detail-status-void {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.form-container {
+  padding: 20px;
+
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 15px 20px ;
+  border-bottom: 1px solid #495057;
+  margin-bottom: 0;
+  color: #3860fb
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 15px;
+  color: #1B263B
+}
+
+.form-input {
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 15px;
+  background-color: #fff;
+  border: 1px solid #495057;
+  color: #495057;
+  border-radius: 3px;
+}
+
+.form-error {
+  margin: 0;
+  color: red;
+  font-size: 14px;
+}
+
+.form-btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-btn {
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3860fb;
+  padding: 5px 10px;
+  border: 1px solid #3860fb;
+  color: #fff;
+  border-radius: 5px;  
+}
+.form-btn:hover {
+  background-color: #476cf8;  
+}
+
+.delete-modal-title {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+.delete-modal-btn-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.delete-confirm-btn-modal {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #3860fb;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #3860fb;
+  margin: 10px;
+  width: 120px;
+  color: #fff;
+  font-weight: bold;
+}
+.delete-confirm-btn-modal:hover {
+  background-color: #476cf8;
+}
+
+.delete-cancel-btn-modal {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid red;
+  margin: 10px;
+  width: 120px;
+  
+}
+.delete-cancel-btn-modal:hover {
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+}
+
+.confirm-modal-value {
+  font-size: 16px;
+  text-align: center;
+  color: #3860fb;
+  font-weight: bold;
+}
+
+.modal-error-p {
+  font-size: 16px;
+  text-align: center;
+  color: red;
+  padding-top: 25px;
+}
+
+.bets-planning-container {
+  padding: 0;
+  margin: 20px auto 0px;
+  border: 2px solid #222531;
+  border-radius: 5px;
+  color: #fff;
+  width: 1100px;
+  
+}
+
+.planning-container {
+  width: 988px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+.planning-date-title {
+  color: #fff;
+  margin-top: 0;
+}
+
+.planning-days-container {
+  display: flex;
+  border-right: 1px solid rgb(34, 37, 49);
+  border-top: 1px solid rgb(34, 37, 49);
+  border-bottom: 1px solid rgb(34, 37, 49);
+  background-color: #17171a;
+  font-weight: bold;
+  color: #fff;
+}
+
+.planning-days-container--day {
+  width: 120px;
+  padding: 5px 10px;
+  border-left: 1px solid rgb(34, 37, 49);
+}
+
+.planning-days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.planning-day {
+  width: 120px;
+  padding: 0 10px;
+  border-left: 1px solid rgb(34, 37, 49);
+  border-bottom: 1px solid rgb(34, 37, 49);
+  min-height: 120px;
+}
+
+.planning-date {
+  color: #fff;
+  text-align: right;
+  margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.planning-date-without-bet {
+  display: block !important; 
+}
+
+.planning-bets {
+  font-size: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.planning-profit {
+  font-size: 14px;
+  margin: 10px 5px 15px;
+}
+
+.btn-go-back-container {
+  text-align: center;
+  padding: 25px 0 15px 0;
+}
+
+.day-without-data {
+  margin-top: 22px !important;
+}
+
+
+@media screen and (max-width: 1024px){
+  .bets-page-container {
+    padding-top: 70px
+  }
+
+  .btns-container {    
+    justify-content: center;
+  }
+
+  .principal-button-container {
+    margin: 2px;
+  }
+
+  .principal-button {
+    width: 150px;
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+
+  .detail-container {
+    margin-top: 50px;
+  }
+
+  .spinnerContainer {
+    margin-top: 200px
+  }
+
+  .bet-detail-container {
+    padding-top: 70px
+  }
+}

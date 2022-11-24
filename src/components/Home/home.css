@@ -1,0 +1,28 @@
+
+.home-buttons-container {
+  display: flex;
+  width: 880px;
+  margin: 0 auto;
+}
+
+.button-home-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1024px){
+  .home-buttons-container {
+    width: 370px;
+    flex-direction: column;
+  }
+
+  .button-home-container {
+    margin-top: 10px;
+  }
+
+  .home-container {
+    padding-top: 40px;
+    background-color: rgb(23, 23, 26) !important;
+    background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);
+  }
+}

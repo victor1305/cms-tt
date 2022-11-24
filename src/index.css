@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /* padding-bottom: 30px; MIRAR*/
+  font-family: 'Krub', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(23, 23, 26) !important;
+  background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #476cf8
+}

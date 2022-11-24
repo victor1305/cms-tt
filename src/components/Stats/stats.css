@@ -1,0 +1,228 @@
+.stats-page-container {
+  background-color: rgb(23, 23, 26) !important;
+  background: linear-gradient(rgb(34, 37, 49) 0%, rgba(34, 37, 49, 0) 460px);
+}
+
+.stats-container {
+  margin: 20px 40px 0px;
+  border-radius: 5px;
+  border: 2px solid #222531;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.tables-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.stats-title-container {
+  background-color: #17171a;
+  padding: 10px;
+  border-bottom: 1px solid rgb(34, 37, 49);
+  text-align: center;
+}
+
+.stats-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.trends-container {
+  margin: 20px 40px;
+  border-radius: 5px;
+  border: 1px solid #222531;
+  padding-bottom: 15px;  
+  width: 340px;
+}
+
+.trends-title-container {
+  margin-bottom: 10px;
+  background-color: #17171a;
+  padding: 10px;
+  border-bottom: 1px solid rgb(34, 37, 49);
+  text-align: center;
+}
+
+.trends-body > p {
+  margin: 0;
+  padding: 8px 15px;
+}
+
+.table-container-stats {
+  border-collapse: collapse;
+  border: 1px solid rgb(34, 37, 49);
+  width: 900px;
+  margin: 20px 40px; 
+}
+
+.stats-table-tr {
+  background-color: #17171a;
+  padding: 5px;
+  margin: 0;
+}
+
+.stats-year-btn {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.stats-year-btn:hover {
+  color: #6188ff;
+}
+
+.option-container {
+  border: 2px solid rgb(34, 37, 49);
+  width: 490px;
+  margin: 20px auto; 
+  display: block;
+  padding: 0 40px;
+}
+
+.year-color {
+  color: #3860fb !important;
+  font-weight: bold !important;
+}
+
+.stats-red {
+  color: #f72c40;
+  font-weight: bold;
+}
+
+.stats-green {
+  color: #03f73c;
+  font-weight: bold;
+}
+
+.stats-blue {
+  color: #3860fb;
+  font-weight: bold;
+}
+
+.stats-subtitle {
+  width: 490px;
+  margin: 0px auto;
+  text-align: center;
+  color: #3860fb;
+  padding: 20px 0;
+}
+
+.stats-item-name {
+  text-align: left;
+  padding-left: 25px !important;
+}
+
+.stats-item-racecourse {
+  text-align: left;
+  padding-left: 25px !important;
+}
+
+.stats-table-tr-body > td {
+  padding: 5px 10px;
+}
+
+.stats-th {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.stats-th-win {
+  background-color: #03f73c;
+}
+
+.stats-th-loss {
+  background-color: #f72c40;
+}
+
+.stats-th-void {
+  background-color: #3860fb;
+}
+
+.stats-date-input {
+  padding: 5px ;
+  font-size: 15px;
+  background-color: #fff;
+  border: 1px solid #222531;
+  color: #222531;
+  border-radius: 3px;
+  text-align: left;
+  width: 190px;
+  cursor: pointer;
+}
+
+.stats-date-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 1024px){
+  .stats-page-container {
+    padding-top: 70px;
+  }
+
+  .stats-container {
+    width: 370px;
+    margin: 5px auto;
+  }
+
+  .option-container {
+    width: 310px !important;
+    padding: 0 0 0 20px;
+    margin: 12px auto;
+  }
+
+  .stats-year-btn {
+    margin: 0;
+  }
+
+  .stats-subtitle {
+    width: 340px;
+    font-size: 19px;
+  }
+
+  .tables-body {
+    flex-direction: column;
+  }
+
+  .table-container-full {
+    margin: 12px auto 40px;
+  }
+
+  .table-container-stats {
+    width: 340px;
+    font-size: 14px; 
+    margin: 0 auto;   
+  }
+
+  .trends-container {
+    margin: 10px auto;
+    font-size: 14px;
+  }
+
+  .stats-table-tr-body > td {
+    padding: 5px 8px;
+  }
+
+  .stats-item-name {
+    padding-left: 12px !important;
+  }
+
+  .stats-item-racecourse {
+    padding: 5px 7px !important;
+    font-size: 12px;
+  }
+
+  .stats-item-stake {
+    text-align: center !important;
+  }
+
+}
