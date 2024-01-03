@@ -66,7 +66,7 @@ const BetModal = ( props ) => {
 
     let oldHour = ''
 
-    if(props.date) {
+    if (props.date) {
       oldHour = props.date.slice(11)
     }
 

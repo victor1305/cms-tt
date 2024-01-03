@@ -85,7 +85,9 @@ const BetPlanning = (props) => {
       <div className = "planning-days">
 
         { monthDays.length > 0 && monthDays.map((index) => (
-          <div className = "planning-day" key = {index} id = { `planning-day-${beginingDay === 1 ? index : beginingDay === 2 ? index + 1 : beginingDay === 3 ? index + 2 : beginingDay === 4 ? index + 3 : beginingDay === 5 ? index + 4 : beginingDay === 6 ? index + 5 : index + 6}`}>
+          <div className = "planning-day" 
+          key = {index} 
+          id = { `planning-day-${beginingDay === 1 ? index : beginingDay === 2 ? index + 1 : beginingDay === 3 ? index + 2 : beginingDay === 4 ? index + 3 : beginingDay === 5 ? index + 4 : beginingDay === 6 ? index + 5 : index + 6}`}>
 
             { index > 0 && 
               <div>

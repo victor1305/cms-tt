@@ -529,20 +529,20 @@ const Clients = (props) => {
                       <tr>
                         <td>Antonio</td>
                         <td>{ paymentsAntonio }</td>
-                        <td>{ Math.round(totalPayments * 0.25) }</td>
-                        <td>{paymentsAntonio - totalPayments * 0.25 > 0 ? 'Sobran' : 'Faltan'} { Math.abs(Math.round(paymentsAntonio - totalPayments * 0.25)) }€</td>
+                        <td>{ Math.round(totalPayments * 0.41) }</td>
+                        <td>{paymentsAntonio - totalPayments * 0.41 > 0 ? 'Sobran' : 'Faltan'} { Math.abs(Math.round(paymentsAntonio - totalPayments * 0.41)) }€</td>
                       </tr>
                       <tr>
                         <td>Eduardo</td>
                         <td>{ paymentsEdu }</td>
-                        <td>{ Math.round(totalPayments * 0.45) }</td>
-                        <td>{paymentsEdu - totalPayments * 0.45 > 0 ? 'Sobran' : 'Faltan'} { Math.abs(Math.round(paymentsEdu - totalPayments * 0.45)) }€</td>
+                        <td>{ Math.round(totalPayments * 0.18) }</td>
+                        <td>{paymentsEdu - totalPayments * 0.18 > 0 ? 'Sobran' : 'Faltan'} { Math.abs(Math.round(paymentsEdu - totalPayments * 0.41)) }€</td>
                       </tr>
                       <tr>
                         <td>Víctor</td>
                         <td>{ paymentsVictor }</td>
-                        <td>{ Math.round(totalPayments * 0.3) }</td>
-                        <td>{paymentsVictor - totalPayments * 0.3 > 0 ? 'Sobran' : 'Faltan'} { Math.abs(Math.round(paymentsVictor - totalPayments * 0.3)) }€</td>
+                        <td>{ Math.round(totalPayments * 0.41) }</td>
+                        <td>{paymentsVictor - totalPayments * 0.41 > 0 ? 'Sobran' : 'Faltan'} { Math.abs(Math.round(paymentsVictor - totalPayments * 0.41)) }€</td>
                       </tr>
                     </tbody>
                   </table>
